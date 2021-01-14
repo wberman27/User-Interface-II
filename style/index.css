@@ -57,6 +57,7 @@ table {
 /* Add CSS styling here */
 body{
     font-family:Arial, Helvetica, sans-serif;
+    max-width:100%;
 }
 .mainHeader{
     background-color:green;
@@ -65,7 +66,7 @@ body{
     border: 1px solid black;
 }
 h1{
-    font-size:50px;
+    font-size:4rem;
 }
 .navBar{
     display:flex;
@@ -73,6 +74,7 @@ h1{
     background:green;
     justify-content:flex-start;
     margin-top:20px;
+    flex-flow: row wrap;
 }
 .navText{
     background:white;
@@ -86,6 +88,7 @@ h1{
     margin:10px;
     transition:.3s;
     cursor:pointer;
+    flex-flow: row wrap;
 }
 .navText:hover{
     background:gold;
@@ -98,4 +101,42 @@ a{
     color:black;
     opacity:.5;
     transition:.3s;
+}
+.meBody{
+    display:flex;
+    justify-content:flex-start;
+    flex-flow: row;
+    border:1px solid black;
+    margin:50px;
+    width:40%;
+}
+.me img{
+    width:300px;
+    border-radius:30px;
+}
+h2{
+    font-size:3rem;
+}
+.columnizeMe{
+    display:flex;
+    flex-flow:column wrap;
+    border:1px solid black;
+    padding-left:10%;
+    justify-content:space-evenly;
+}
+.gallery{
+    display:flex;
+    width:100%;
+    padding-left:10%;
+    padding-bottom:3%;
+    flex-flow:row wrap;
+    justify-content:center;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.image{
+    background:url(https://picsum.photos/300);
+    background-repeat:no-repeat;
+    width:300px;
+    height:30vh;
 }
