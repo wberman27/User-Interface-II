@@ -253,7 +253,7 @@ h2{
 @media (max-width:500px){
     .mainHeader h1{
         font-size:3rem;
-        padding-top:1%;
+        padding-top:5%;
     }
     .navBar{
         flex-direction:column;
@@ -262,7 +262,9 @@ h2{
         padding-bottom:1%;
     }
     .navText{
-        padding: 3% 20%;
+        width:40%;
+        padding:3%;
+        margin:1%;
     }
     .meBody{
         flex-direction: column;
@@ -282,6 +284,9 @@ h2{
     .columnizeMe .navText a{
         color:white;
     }
+    .columnizeMe p{
+        text-align: center;
+    }
     .gallery{
         flex-direction: row wrap;
     }
@@ -296,11 +301,22 @@ h2{
     }
     .checkmeout{
         flex-direction: column;
-        height:30vh;
-    }
-    .checkmeout .navText{
         justify-content: center;
         align-items: center;
-        padding:1% 15%;
+        height:30vh;
+        width:100%;
+    }
+    .checkmeout .navText{
+        width:30%;
+        padding:3%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .checkmeout a{
+        font-size: 2rem;
+        display:flex;
+        justify-content:center;
+        align-items: center;
     }
 }
