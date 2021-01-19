@@ -217,7 +217,38 @@ h2{
 .checkmeout .navText:hover a{
     color:white;
 }
-
+#project1 .gallery{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#project1 .image{
+    display:flex;
+    background:url(https://picsum.photos/500);
+    background-repeat:no-repeat;
+    width:500px;
+    margin:2%;
+    margin-bottom:4%;
+    text-shadow: 3px 3px black;
+    font-size:3rem;
+    transition:.3s;
+    box-sizing:border-box;
+    border-radius:30px;
+}
+#project1 .projBody{
+    display:flex;
+    flex-flow:row nowrap;
+}
+#project1 .projBody .projBodyText{
+    display:flex;
+    flex-flow:column wrap;
+    padding:2%;
+}
+#project1 .projBody .projBodyText p{
+    padding-top:3%;
+}
+#project1 footer{
+    margin-top:5%;
+}
 /*Media Queries below*/
 
 /*Tablet View*/
