@@ -228,11 +228,15 @@ h2{
     width:500px;
     margin:2%;
     margin-bottom:4%;
-    text-shadow: 3px 3px black;
-    font-size:3rem;
     transition:.3s;
     box-sizing:border-box;
     border-radius:30px;
+}
+#project1 .image:hover{
+    border:none;
+}
+#project1 .NP{
+    margin-top:5%;
 }
 #project1 .projBody{
     display:flex;
@@ -275,6 +279,9 @@ h2{
         justify-content:center;
         align-items:center;
         width:15%;
+    }
+    #project1 .projBody{
+        flex-flow:column wrap;
     }
 }
 /*End Tablet View*/
