@@ -325,6 +325,7 @@ h2{
     .mainHeader h1{
         font-size:3rem;
         padding-top:5%;
+        text-align: center;
     }
     .navBar{
         flex-direction:column;
@@ -389,5 +390,21 @@ h2{
         display:flex;
         justify-content:center;
         align-items: center;
+    }
+    .mediaLinks{
+        justify-content: center;
+        align-items: center;
+        padding-left:40%;
+    }
+    .mediaLinks img{
+        width:10%;
+    }
+    .twitLink{
+        justify-content: center;
+        align-items: center;
+        padding-left:40%;
+    }
+    .twitLink img{
+        width:12%;
     }
 }
