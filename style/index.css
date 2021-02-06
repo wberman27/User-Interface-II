@@ -136,6 +136,17 @@ h2{
     width: 60%;
     padding-bottom:2%;
 }
+.contactBody{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: space-evenly;
+}
+.contactBody a{
+    text-decoration: none;
+}
+.contactBody a:hover{
+    color:blueviolet;
+}
 .mediaLinks{
     display: flex;
 }
@@ -156,6 +167,7 @@ h2{
     flex-flow:column wrap;
     justify-content: flex-start;
     padding-left:5%;
+    width:80%;
 }
 .aboutMe h2{
     padding-top:15%;
@@ -166,7 +178,19 @@ h2{
 .aboutMe p{
     width:70%;
     padding-bottom:2%;
-    padding-top:10%;
+    padding-top:5%;
+}
+.drumming img{
+    border-radius:30px;
+}
+.drumming {
+    width:60%;
+}
+.dagmar img{
+    border-radius:30px;
+}
+.dagmar{
+    width:40%;
 }
 .columnizeMe .navText{
     background:white;
@@ -185,6 +209,12 @@ h2{
 }
 .columnizeMe a{
     color:#4F4F4F;
+}
+.projectsBody{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    padding-left:5%;
 }
 .gallery{
     display:flex;
